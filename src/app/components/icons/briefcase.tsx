@@ -1,4 +1,4 @@
-export default function BriefCaseIcon() {
+export default function BriefCaseIcon({className}: {className?: string}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,7 +6,7 @@ export default function BriefCaseIcon() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="size-6"
+      className={`size-6 ${className}`}
     >
       <path
         strokeLinecap="round"
